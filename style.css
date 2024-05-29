@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+body, html {
+    height: 100%;
+  }
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img_girl.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  #hero_content{
+    /* The image used */
+    background-image: url("https://cdn.chimpify.net/5e8b5c84a85872c71c8b4585/2023/10/20231014_170605-2.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/*************  hero *******************/
+
+#hero{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* #hero_content::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+    background-image: url(https://cdn.chimpify.net/5e8b5c84a85872c71c8b4585/2023/10/20231014_170605-2.jpg);
+    background-size: cover;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+#hero_content{
+    position: static;
+}
+
+#hero_content h1{
+    color :white;
+    font-size: 2 rem;
+    text-shadow: 2px 2px 2px #000;
+}
+
+/* nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} */
+
+/************* nav *******************/
+
+#header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+    line-height: 70px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(0, 0, 0, 0,5);
+}
+
+#navbar h1{
+    color: orange;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 2px #000;
+    font-family: cursive;
+
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    padding: 3px 15px 3px 15px;
+    align-items: center;
+}
+
+#navbar ul li:hover,#phone a:hover{
+    background: navy;
+    cursor: pointer;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+#phone a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 3px 15px 3px 15px;
+    border: 1px solid orange;
+}
